@@ -1,0 +1,67 @@
+.bg_banner{
+    background-color: #FEEAE9;
+}
+.banner_title,
+.title,
+.footer_title{
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.2!important;
+    color: #1F1F1F;
+    
+    
+}
+.title{
+    font-size: 45px;
+    position: relative;
+    
+}
+.title::after{
+    content: "";
+    position:absolute;
+    top: 55%;
+    bottom: 35%;
+    left: 105%;
+    background-color: #FF136F;
+    border-radius: 0 20px 20px 0;
+    /* height: 4px; */
+    width: 50px;
+}
+.button{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    padding: 8px 15px;
+    color: #fff;
+}
+.price{
+    color: #FF136F;
+}
+.bag_catagories{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+
+}
+.shoes_catagories{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+.watch_catagories{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.products_header a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF9D00;
+}
+h5{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1F1F1F;
+}
+footer{
+    margin: 100px 0;
+}
+.footer{
+    height: 455px;
+    background-color: #FEEAE9;
+}

@@ -11,19 +11,279 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- style sheet link tags   -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- font awesome icons link   -->
+    <script src="https://kit.fontawesome.com/d9bbee99bd.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <!-- start the header tags  -->
     <header>
+        <!-- nav tags  -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#products">Product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>   
+        </div>
+        <!-- image slider -->
+        <section class="container my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-3 bg_banner">
+                  <div class="carousel-item active">
+                      <div class="row p-3">
+                          <div class="col-lg-7 col-12 d-flex align-items-center">
+                              <div>
+                                <h1 class="banner_title">Cool Dude Headphone</h1>
+                                <p>
+                                            
+                                    This is the best headphone in the world for people who
+                                    just want to waste time in front of funky world.
+                                
+                                </p>
+                                <h1 class="price">$420</h1>
+                                <button class="btn button">BUY NOW</button>
+                              </div>
+
+                          </div>
+                          <div class="col-lg-5 col-12">
+                             <img src="./images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row p-3">
+                        <div class="col-lg-7 col-12 d-flex align-items-center">
+                            <div>
+                              <h1 class="banner_title">MEGA LCD TV  FOR SPORTS</h1>
+                              <p>
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                              </p>
+                              <h1 class="price">$345</h1>
+                              <button class="btn button">BUY NOW</button>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-5 col-12">
+                           <img src="./images/banner-images/tv.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row p-3">
+                        <div class="col-lg-7 col-12 d-flex align-items-center">
+                            <div>
+                              <h1 class="banner_title">X-Box for your living room</h1>
+                              <p>
+                                            
+                                    This is the best x-box in the world for people who just
+                                    want to waste time in front of fake sports.
+                      
+                              </p>
+                              <h1 class="price">$353</h1>
+                              <button class="btn button">BUY NOW</button>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-5 col-12">
+                           <img src="./images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- catagories -->
+        <section class="container my-5 py-5">
+            <div class="catagories_header d-flex ">
+                <h1 class="title py-3">Categories</h1>
+                <span></span>
+            </div>
+                <div class="row gy-3">
+                  <div class="col-12 col-lg-4 col-md-6">
+                    <div class="p-3 rounded-3  d-flex justify-content-between watch_catagories align-items-center">
+                        <h1 class="text-white">Watch</h1>
+                        <img height="90" src="./images/categories/watch.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6">
+                    <div class="p-3 rounded-3  d-flex justify-content-between bag_catagories align-items-center">
+                        <h1 class="text-white">Bag</h1>
+                        <img height="90" src="./images/categories/bag.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-4 col-md-6">
+                    <div class="p-3 rounded-3  d-flex justify-content-between shoes_catagories align-items-center">
+                        <h1 class="text-white">Shoes</h1>
+                        <img height="90" src="./images/categories/shoes.png" alt="">
+                    </div>
+                  </div>
+                </div>
+        </section>
 
     </header>
     <!-- start the main tags  -->
-    <main>
+    <main class="pb-5  pt-3" style="background-color: #F4F4F4;">
+        <!-- products -->
+        <section id="products" class="container my-5">
+           <div class="d-flex products_header align-items-center justify-content-between">
+            <h1 class="title py-3">Shoes</h1>
+            <a href="#">See All</a>
+           </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                  <div class="card border-0 rounded-3 shadow-lg h-100">
+                    <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <h5 class="text-center py-3">Reebok Dart Men’s Shoes</h5>
+                            <p class=" text-center py-3 px-2">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center pb-3">
+                      <button class="btn button ">BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 rounded-3 shadow-lg h-100">
+                      <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                      <div class="d-flex justify-content-center">
+                          <div>
+                              <h5 class="text-center py-3">Reebok Pump</h5>
+                              <p class=" text-center py-3 px-2">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                              </p>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-center pb-3">
+                        <button class="btn button ">BUY NOW</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card border-0 rounded-3 shadow-lg h-100">
+                      <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                      <div class="d-flex justify-content-center">
+                          <div>
+                              <h5 class="text-center py-3">Reebok All Terrain</h5>
+                              <p class=" text-center py-3 px-2">
+                                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                              </p>
+                          </div>
+                      </div>
+                      <div class="d-flex justify-content-center pb-3">
+                        <button class="btn button ">BUY NOW</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </section>
+        <!-- bags -->
+        <section id="products" class="container my-5">
+            <div class="d-flex products_header align-items-center justify-content-between">
+             <h1 class="title py-3">Shoes</h1>
+             <a href="#">See All</a>
+            </div>
+             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                 <div class="col">
+                   <div class="card border-0 rounded-3 shadow-lg h-100">
+                     <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
+                     <div class="d-flex justify-content-center">
+                         <div>
+                             <h5 class="text-center py-3">Ison Backpack</h5>
+                             <p class=" text-center py-3 px-2">
+                                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                             </p>
+                         </div>
+                     </div>
+                     <div class="d-flex justify-content-center pb-3">
+                       <button class="btn button ">BUY NOW</button>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col">
+                     <div class="card border-0 rounded-3 shadow-lg h-100">
+                       <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
+                       <div class="d-flex justify-content-center">
+                           <div>
+                               <h5 class="text-center py-3">Biaowang Backpack</h5>
+                               <p class=" text-center py-3 px-2">
+                                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                               </p>
+                           </div>
+                       </div>
+                       <div class="d-flex justify-content-center pb-3">
+                         <button class="btn button ">BUY NOW</button>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col">
+                     <div class="card border-0 rounded-3 shadow-lg h-100">
+                       <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
+                       <div class="d-flex justify-content-center">
+                           <div>
+                               <h5 class="text-center py-3">Dxyizu WS54 Smart</h5>
+                               <p class=" text-center py-3 px-2">
+                                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                               </p>
+                           </div>
+                       </div>
+                       <div class="d-flex justify-content-center pb-3">
+                         <button class="btn button ">BUY NOW</button>
+                       </div>
+                     </div>
+                   </div>
+               </div>
+         </section>
+
 
     </main>
     <!-- start the footer tags  -->
     <footer>
+        <section class="container footer rounded-3 d-flex justify-content-center align-items-center">
+            <div class="footer_items">
+                <h1 class="footer_title">
+                    LET'S STAY IN TOUCH
+                </h1>
+                <p class="text-center">
+                    Get updates on sales specials and more
+                </p>
+                    <form class="d-flex " action="">
+                        <input class="form-control me-2" type="email" required placeholder="Your Email" name="" id="">
+                        <button  class="btn button ">Subscribe</button>
+                    </form>
+            </div>
+        </section>
 
     </footer>
 
